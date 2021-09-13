@@ -1,0 +1,126 @@
+* {
+  font-family: monospace;
+  padding: 10px;
+  place-content: center;
+}
+
+.container {
+  width: 80%;
+  background-color: whitesmoke;
+  display: flex;
+  border-radius: 25px;
+  /* flex-direction: column; */
+  place-content: center;
+  justify-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  font-size: 24px;
+  width: 80%;
+  border-radius: 10px;
+  border-color: white;
+  background-color: hsl(189, 41%, 97%);
+}
+
+.inputs:focus {
+  border-radius: 10px;
+  border-color: hsl(183, 100%, 15%);
+}
+
+.results {
+  width: 50%;
+  font-size: 32px;
+  font-weight: bolder;
+  color: hsl(183, 100%, 32%);
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(183, 100%, 15%);
+  border-radius: 10px;
+}
+
+.tips {
+  display: flex;
+  width: 80%;
+}
+.tipbutton {
+  padding: 0%;
+
+  background-color: hsl(183, 100%, 15%);
+  border-color: hsl(183, 100%, 15%);
+  font-size: 24;
+  color: whitesmoke;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 33px;
+  width: 80px;
+}
+
+.tipbutton2 {
+  background-color: red;
+}
+
+.tipbutton:focus {
+  background-color: hsl(183, 100%, 32%);
+  border-color: hsl(183, 100%, 15%);
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+}
+.tipbutton:visited {
+  background-color: hsl(183, 100%, 32%);
+  border-color: hsl(183, 100%, 15%);
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+}
+
+.inputcust {
+  height: 33px;
+  width: 80px;
+  border-radius: 5px;
+  border-color: white;
+  background-color: hsl(189, 41%, 97%);
+  font-weight: bold;
+}
+
+.img {
+  z-index: -1;
+}
+
+.p2 {
+  font-size: 10px;
+  border: 0px;
+  padding: 0%;
+}
+
+.reset {
+  width: 70%;
+  align-self: center;
+  border-radius: 10px;
+  border-color: hsl(186, 14%, 43%);
+  background-color: hsl(183, 100%, 32%);
+  color: hsl(183, 100%, 15%);
+  font-size: 24px;
+}
+
+.reset:active {
+  background-color: hsl(183, 98%, 66%);
+}
+
+.botones {
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+@media (max-width: 375px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .results {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+  }
+}
