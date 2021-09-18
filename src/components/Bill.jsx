@@ -39,7 +39,7 @@ export default function Bill(){
           
         <div className={S.botones}>
         <label>SELECT TIP %</label>
-          <button className={clas?S.tipbutton:S.tipbutton2} onClick={()=>setTip(0.05)} value={tip}>5%</button>
+          <button className={S.tipbutton} onClick={()=>setTip(0.05)} value={tip}>5%</button>
           <button className={S.tipbutton} onClick={()=>setTip(0.1)} value={tip}>10%</button>
           <button className={S.tipbutton} onClick={()=>setTip(0.15)} value={tip}>15%</button>
           <button className={S.tipbutton} onClick={()=>setTip(0.25)} value={tip}>25%</button>
